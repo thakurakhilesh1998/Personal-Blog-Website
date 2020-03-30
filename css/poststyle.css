@@ -1,0 +1,149 @@
+@import "about-author.css";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1.4rem;
+}
+
+header {
+	background-color: #000839;
+	padding-top: 0.7rem;
+	padding-bottom: 0.7rem;
+}
+
+.header-container h2 {
+	color: white;
+}
+
+.header-container a {
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-areas: "main main main main main main sd sd sd";
+	padding-left: 8%;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	grid-area: main;
+	padding: 1.6rem;
+}
+
+.sidebar {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	grid-area: sd;
+	padding: 1.6rem;
+}
+
+@media(max-width:900px) {
+	.header-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding: 1.6rem;
+	}
+	.header-container h2 {
+		margin-top: 0.8rem;
+		color: white;
+	}
+	.header-container a {
+		color: white;
+		margin-top: 0.6rem;
+		text-decoration: none;
+	}
+	.container {
+		display: grid;
+		grid-template-columns: repeat(8, 1fr);
+		grid-template-areas: "main main main main main main main main " "sd sd sd sd sd sd sd sd";
+		padding-left: 8%;
+	}
+	.footer {
+		display: flex;
+		background-color: #444;
+		justify-content: space-around;
+		padding: 1.3rem;
+		flex-direction: column-reverse;
+		align-items: center;
+		color: white;
+		margin-top: 1.3rem;
+	}
+}
+
+.links li {
+	list-style-type: none;
+}
+
+.card-about {
+	background-color: #d1cebd;
+	padding: 0.6rem;
+	border-radius: 0.5rem;
+}
+
+.about-heading {
+	margin-top: 0.6rem;
+	margin-bottom: 0.6rem;
+	font-style: italic;
+	font-size: 1.8rem;
+}
+
+.date {
+	margin-left: 0.6rem;
+	margin-right: 0.6rem;
+	color: gray;
+	font-stretch: wider;
+	margin-top: 0.6rem;
+}
+
+.card-layout {
+	border: 0.001rem solid #00040f;
+	padding: 0.2rem;
+	margin-top: 0.8rem;
+}
+
+.para,
+.headings,
+.list {
+	margin-top: 1rem;
+}
+
+.list li {
+	margin-left: 1rem;
+	margin-top: 0.8rem;
+}
+
+.footer {
+	display: flex;
+	background-color: #444;
+	justify-content: space-around;
+	padding: 1.3rem;
+	align-items: center;
+	color: white;
+	margin-top: 1.3rem;
+}
+
+.contact-us {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.contact-us li {
+	margin: 0.4rem;
+}

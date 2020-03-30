@@ -1,0 +1,23 @@
+.card-left1 {
+	grid-area: left;
+}
+
+.card-right1 {
+	grid-area: right;
+}
+
+.card-left2 {
+	grid-area: left1;
+}
+
+.card-right2 {
+	grid-area: right1;
+}
+
+.card-left3 {
+	grid-area: left2;
+}
+
+.card-right3 {
+	grid-area: right2;
+}

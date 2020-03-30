@@ -1,0 +1,35 @@
+.author-info {
+	border: 1px solid gray;
+	display: flex;
+	flex-direction: column;
+	margin-top: 2rem;
+	padding: 0.4rem;
+}
+
+.author-info img {
+	width: 15%;
+	height: 15%;
+	display: block;
+	margin: auto auto;
+	border-radius: 6rem;
+	border: 0.1rem solid black;
+}
+
+.author-info h3,
+p,
+i {
+	margin-top: 0.5rem;
+	text-align: center;
+}
+
+.author-info q {
+	margin-top: 0.5rem;
+	text-align: center;
+}
+
+#about-author {
+	display: flex;
+	margin-top: 1rem;
+	flex-direction: row;
+	align-items: center;
+}

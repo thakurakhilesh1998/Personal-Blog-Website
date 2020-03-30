@@ -1,0 +1,16 @@
+.footer {
+	display: flex;
+	background-color: #444;
+	justify-content: space-around;
+	padding: 1.6rem;
+	align-items: center;
+	color: white;
+	margin-top: 1.6rem;
+}
+
+.contact-us {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
